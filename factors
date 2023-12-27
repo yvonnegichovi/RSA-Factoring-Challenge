@@ -19,7 +19,7 @@ def main(filenamne):
         for line in file:
             number = int(line.strip())
             factors = factorize(number)
-            print("{}={}*{}".format(number, factors[0], factors[1]))
+            print("{}={}*{}".format(number, factors[1], factors[0]))
 
 
 if __name__ == "__main__":
